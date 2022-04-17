@@ -1,0 +1,23 @@
+.bodyStyle{
+    position:relative;
+    left:10.30rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.bodyStyle h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.bodyStyle p{
+    position: relative;
+
+    left:4rem;
+
+    font-weight: 500;
+    font-size: 2rem;
+
+    border-left: 2px solid white ;
+    padding-left: 10px;
+}
