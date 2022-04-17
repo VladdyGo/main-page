@@ -1,13 +1,21 @@
 import classes from "./App.module.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import Body from './Components/Body';
+import Header from "./Components/UI/Header";
+import Footer from "./Components/UI/Footer";
+import Body from './Components/UI/Body';
+import {useState} from 'react';
 
 function App() {
+
+const [bodyContent,setBodyContent] = useState('None');
+
+const bodyContantHandler = (event) => {
+  setBodyContent(event.target.innerText);
+};
+
   return (
     <div>
-      <Header/>
-      <Body/>
+      <Header bodyContentHandler={bodyContantHandler}/>
+      <Body bodyContent={bodyContent}/>
       <Footer/>
     </div>
   );
