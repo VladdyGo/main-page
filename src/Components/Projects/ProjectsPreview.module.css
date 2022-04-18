@@ -1,0 +1,17 @@
+.projectsPreview{
+    text-align: center;
+}
+
+.projectsPreview li{
+  width: 400px;
+  height: 200px;
+  list-style: none;
+  border-radius: 15px,50px;
+
+  color: black;
+
+  display: inline-block;
+
+  margin:0.5rem;
+  text-align: center;
+}

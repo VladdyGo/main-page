@@ -6,7 +6,6 @@
     font-size: 3rem;
 }
 .basicMessageStyle p{
-
     left:4rem;
 
     font-weight: 500;
@@ -15,5 +14,4 @@
     border-left: 2px solid white ;
     padding-left: 10px;
 
-    max-width: 50rem;
 }

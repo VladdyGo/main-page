@@ -1,5 +1,6 @@
 import classes from "./Body.module.css";
 import MessageWindow from "../Message/MessageWindow";
+import ProjectsPreview from "../Projects/ProjectsPreview";
 
 const Body = (props) => {
   if (props.bodyContent === "About") {
@@ -19,6 +20,7 @@ const Body = (props) => {
         <MessageWindow title='No projects to show.'>
           I'm currently working on my portfolio. as soon as ill have something to show ill post it here.
         </MessageWindow>
+        <ProjectsPreview />
       </div>
     );
   }

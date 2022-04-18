@@ -31,6 +31,10 @@ header {
   padding: 10px;
 }
 
+.mainNav .logo:hover {
+  cursor: pointer;
+}
+
 .mainNav nav {
   vertical-align: middle;
   padding-bottom: 0;
@@ -48,4 +52,5 @@ header {
 
 .mainNav nav li:hover {
   border-color: white;
+  cursor: pointer;
 }
