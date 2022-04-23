@@ -1,17 +1,21 @@
-.projectsPreview{
-    text-align: center;
+.projectsPreview {
+  position: relative;
+  top:10px;
+  bottom:1000px;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 100px;
+  overflow-y: auto;
 }
 
-.projectsPreview li{
-  width: 400px;
-  height: 200px;
+.projectsPreview li {
+  position: relative;
   list-style: none;
-  border-radius: 15px,50px;
+  border-radius: 15px, 50px;
 
   color: black;
 
   display: inline-block;
 
-  margin:0.5rem;
   text-align: center;
 }

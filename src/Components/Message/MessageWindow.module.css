@@ -2,11 +2,15 @@
     position: relative;
 }
 .basicMessageStyle h2{
+    position: relative;
     font-weight: 700;
     font-size: 3rem;
 }
 .basicMessageStyle p{
+    position: relative;
     left:4rem;
+
+    max-width: 1000px;
 
     font-weight: 500;
     font-size: 1.6rem;

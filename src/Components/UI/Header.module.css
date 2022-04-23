@@ -6,7 +6,7 @@ header {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 15px;
-  padding-right: 10px;
+  padding-right: 0;
 
   margin-top: 2rem;
   margin-bottom: 10px;
@@ -38,7 +38,6 @@ header {
 .mainNav nav {
   vertical-align: middle;
   padding-bottom: 0;
-  line-height: 85px;
   float: right;
 }
 
@@ -47,7 +46,10 @@ header {
   display: inline-block;
   margin-right: 40px;
   color: white;
-  border-bottom: black 9px solid;
+  border-bottom: black 6px solid;
+
+  margin-top: 24.25px;
+  margin-bottom: calc(24.25px - 9px);
 }
 
 .mainNav nav li:hover {

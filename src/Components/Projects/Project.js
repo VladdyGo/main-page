@@ -1,9 +1,9 @@
 import classes from './Project.module.css';
 
-const Project = () => {
+const Project = (props) => {
     return (<div className={classes.project}>
-        <div>IMG</div>
-        <p>This project is about...</p>
+        <div>{props.title}</div>
+        <p>{props.description}</p>
     </div>)
 };
 

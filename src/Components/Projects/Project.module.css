@@ -1,18 +1,36 @@
-.project div{
-    display: inline-block;
-    background-color: lightcoral;
-    height: 200px;
-    width: 40%;
-    border-radius: 0 0 0 50px;
+.project {
+  height: 200px;
+  width: 350px;
+  margin-right: 50px;
+  margin-left: 25px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  transition: width 0.2s, height 0.2s, transform 2s;
 }
 
-.project p{
-    display: inline-block;
-    width: 60%;
-    height: 200px;
-    background-color: khaki;
-    margin-top: 0;
-    margin-bottom: 0;
+.project:hover {
+  height: 250px;
+  width: 450px;
+}
 
-    border-radius: 0 15px 15px 0;
+.project div {
+  position: relative;
+  display: inline-block;
+  background-color: lightcoral;
+  height: 100%;
+  width: 40%;
+  border-radius: 10px 0 0 10px;
+}
+
+.project p {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+
+
+  border-radius: 0 10px 10px 0;
 }

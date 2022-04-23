@@ -1,0 +1,11 @@
+.runAnimation{
+    opacity: 0;
+    animation: fadeIn 0.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; display: none;}
+    to { opacity: 3; display: block; }
+}
