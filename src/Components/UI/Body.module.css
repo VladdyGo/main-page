@@ -1,4 +1,9 @@
 .bodyStyle{
     margin-left: 10.30rem;
     margin-bottom: 100px;
+    padding-bottom: 50%;
+    background: url('../../img/Blob.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 80% 10%;
 }

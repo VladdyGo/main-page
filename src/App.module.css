@@ -1,9 +1,9 @@
 html {
   max-width: 100%;
 
-  min-height: 100%;
 }
 body {
+  position: relative;
   background-color: black;
   margin: 0;
   padding: 0;
