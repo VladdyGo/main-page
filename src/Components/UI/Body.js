@@ -41,12 +41,14 @@ const Body = (props) => {
 
   if (props.bodyContent === "Contact me") {
     return (
-      <MessageWindow className={classes.bodyStyle} title="Contact Info">
+      <div className={classes.bodyStyle}>
+      <MessageWindow title="Contact Info">
         <ul>
           <li>Phone: 054-9092278</li>
           <li>Email: va.goteiner@gmail.com</li>
         </ul>
       </MessageWindow>
+      </div>
     );
   }
   if (props.bodyContent === "VG" || props.bodyContent === "None") {
