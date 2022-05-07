@@ -1,14 +1,13 @@
 html {
   max-width: 100%;
-
 }
 body {
   position: relative;
-  background-color: black;
+  background-color: white;
+  font-family: 'Julius Sans One', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
-  color: white;
+  color: black;
 }
 .listStyle {
   margin-top: 0;

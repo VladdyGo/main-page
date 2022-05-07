@@ -1,0 +1,42 @@
+.dialogContainer {
+  position: absolute;
+  top: 77px;
+  left: 352px;
+
+  width: 1024px;
+  height: 703px;
+}
+
+.dialogContainer .titleContainer {
+  position: relative;
+  height: 116px;
+  background-color: rgba(192, 192, 192, 0.4);
+}
+
+.dialogContainer .contentContainer {
+  height: 587;
+  top: 116px;
+  background-color: salmon;
+}
+
+.titleContainer label {
+  cursor: default;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 48px;
+}
+
+.contentContainer label {
+  cursor: default;
+    height: calc(100% - 116px - 40px);
+  position: absolute;
+  top:calc(116px + 20px);
+  right: 20px;
+  left: 20px;
+
+
+  font-size: 24px;
+}

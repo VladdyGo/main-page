@@ -1,0 +1,18 @@
+.projectList {
+  position: relative;
+  top: 140px;
+  left: 332px;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project {
+  margin: 20px;
+  display: inline-block;
+}
+
+.projectListContainer {
+  margin-top: 10px;
+}

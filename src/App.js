@@ -18,7 +18,6 @@ function App() {
       <Body
         bodyContent={bodyContent}
       />
-      <Footer />
     </div>
   );
 }

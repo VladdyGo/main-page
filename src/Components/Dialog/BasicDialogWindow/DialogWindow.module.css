@@ -1,0 +1,78 @@
+.dialogContainer{
+    position: absolute;
+    left:352px;
+    top:77px;
+    
+    align-items: center;
+    height: 426px;
+    width: 1024px;
+}
+
+.dialogContainer .titleContainer{
+    position: relative;
+
+    height: 180px;
+    width: 392px;
+
+    display: inline-block;
+
+    background-color: rgba(196, 196, 196, 0.2);
+}
+
+.mainContentContainer{
+    position: absolute;
+    left: 392px;
+    display: inline-block;
+    width: calc(1024px - 392px);
+    height: 100%;
+    
+    background-color: rgba(196, 196, 196, 0.4);
+}
+
+.mainContentContainer label{
+    cursor:default;
+
+    position: absolute;
+    left:20px;
+    top:20px;
+    bottom: -20px;
+    right: 20px;
+
+    height: calc(426px - 40px);
+
+    font-size: 18px;
+
+}
+
+.shortDescriptionContainer{
+    position: absolute;
+    display: inline-block;
+    width: 392px;
+    bottom:0px;
+    left: 0;
+    height: calc(426px - 180px);
+    color: black;
+
+    background-color:#FFFFFF;
+}
+
+.titleContainer label,
+.shortDescriptionContainer label{
+    cursor:default;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:black;
+
+    text-align: center;
+}
+
+.titleContainer label{
+    font-size: 48px;
+}
+
+
+.shortDescriptionContainer label{
+    font-size: 24px;
+}
