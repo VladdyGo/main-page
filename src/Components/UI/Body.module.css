@@ -9,7 +9,7 @@
   top: 77px;
   height: 800px;
 
-  max-width: 100px;
+  max-width: 2000px;
 
   font-size: 56px;
 
@@ -23,8 +23,7 @@
 
 .mainBody label {
   position: relative;
-  max-width: 100px;
-  display: inline-block;
+  display: block;
 
   cursor: default;
 }
