@@ -1,5 +1,5 @@
 import classes from "./Body.module.css";
-import BigDialogWindow from "../Dialog/BigDialogWindow/DialogWindow";
+import animation from '../../Animations/bodyAnimation.module.css';
 
 import About from "../Sections/About";
 import Projects from "../Sections/Projects";
@@ -20,8 +20,12 @@ const Body = (props) => {
 
   if (props.bodyContent === "VG" || props.bodyContent === "None") {
     return (
-      <div>
-        This is the main view
+      <div className={`${classes.mainBody} ${animation.runAnimation}`}>
+        <label>Finally you're here!</label>
+        <label style={{left:'-30px'}}>I was waiting for you.</label>
+        <label style={{left:'-250px'}}>Feel free, click some buttons.</label>
+        <label style={{left:'-220px',color:'red'}}>I'm looking for a job,</label>
+        <label style={{left:'-190px'}}>Contact me, Yo!</label>
       </div>
     );
   }

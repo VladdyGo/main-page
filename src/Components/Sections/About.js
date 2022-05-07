@@ -9,6 +9,7 @@ const About = (props) => {
           It's about time that I created my first website. This is my play ground for web proggraming and designing.
           Here I will post my projects and show off my skills.
         </p> 
+        <p>I graduated from H.I.T with a degree in applied mathematics.</p>
       </BigDialogWindow>
     </div>
   );

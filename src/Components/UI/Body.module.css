@@ -1,4 +1,28 @@
-.bodyStyle{
-    position:absolute;
-    height: 100%;
+.bodyStyle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.mainBody {
+  position: relative;
+  left: 352px;
+  top: 77px;
+  height: 800px;
+
+  font-size: 56px;
+
+  line-height: 70px;
+
+  background-image: url("../../img/Illustration.svg");
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: 55% 0%;
+}
+
+.mainBody label {
+  position: relative;
+  display: block;
+
+  cursor: default;
 }
