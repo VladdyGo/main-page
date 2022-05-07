@@ -1,4 +1,3 @@
-import BasicDialogWindow from "../Dialog/BasicDialogWindow/DialogWindow";
 import ProjectDialogWindow from "../Dialog/ProjectDialog/ProjectWindow";
 import classes from "./Projects.module.css";
 import animation from '../../Animations/bodyAnimation.module.css';
