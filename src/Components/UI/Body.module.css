@@ -6,6 +6,7 @@
 
 .mainBody {
   position: relative;
+  display: inline-block;
   left: 352px;
   top: 77px;
   height: 800px;
@@ -17,7 +18,7 @@
   background-image: url("../../img/Illustration.svg");
   background-repeat: no-repeat;
   background-size: 700px;
-  background-position: 55% 0%;
+  background-position: 70% 100%;
 }
 
 .mainBody label {
