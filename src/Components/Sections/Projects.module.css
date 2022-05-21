@@ -1,7 +1,10 @@
 .projectList {
   position: relative;
-  top: 140px;
-  left: 332px;
+  display: inline-block;
+  top:77px;
+  left: 50vw;
+
+  transform: translate(-50%,0);
 
   list-style: none;
   padding: 0;

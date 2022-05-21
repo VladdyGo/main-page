@@ -1,6 +1,7 @@
 header {
   background-color: #ffffff;
   position:static;
+  min-width: 850px;
 }
 
 .mainNav {
@@ -8,7 +9,7 @@ header {
   width: 100%;
   height: 160px;
 
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 

@@ -22,10 +22,10 @@ const Body = (props) => {
     return (
       <div className={`${classes.mainBody} ${animation.runAnimation}`}>
         <label>Finally you're here!</label>
-        <label style={{left:'-30px'}}>I was waiting for you.</label>
-        <label style={{left:'-250px'}}>Feel free, click some buttons.</label>
-        <label style={{left:'-220px',color:'red'}}>I'm looking for a job,</label>
-        <label style={{left:'-190px'}}>Contact me, Yo!</label>
+        <label style={{left:'-1.875rem'}}>I was waiting for you.</label>
+        <label style={{left:'-15.652rem'}}>Feel free, click some buttons.</label>
+        <label style={{left:'-13.75rem',color:'red'}}>I'm looking for a job,</label>
+        <label style={{left:'-11.875rem'}}>Contact me, Yo!</label>
       </div>
     );
   }

@@ -1,6 +1,7 @@
 .bodyStyle {
   position: absolute;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .mainBody {
@@ -9,9 +10,7 @@
   top: 77px;
   height: 800px;
 
-  max-width: 2000px;
-
-  font-size: 56px;
+  font-size: 3.5rem;
 
   line-height: 70px;
 

@@ -1,17 +1,20 @@
 .dialogContainer{
     position: absolute;
-    left:352px;
+    left:50%;
     top:77px;
+
+    transform: translate(-50%,0);
     
     align-items: center;
-    height: 426px;
-    width: 1024px;
+    height: 26.625rem;    ;
+    width: 64rem;
 }
 
 .dialogContainer .titleContainer{
     position: relative;
 
-    height: 180px;
+    /* height: 180px; */
+    height: 11.25rem;
     width: 392px;
 
     display: inline-block;
@@ -40,7 +43,7 @@
 
     height: calc(426px - 40px);
 
-    font-size: 18px;
+    font-size: 1.125rem;
 
 }
 
@@ -69,10 +72,10 @@
 }
 
 .titleContainer label{
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 
 .shortDescriptionContainer label{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
