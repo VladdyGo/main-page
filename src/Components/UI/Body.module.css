@@ -51,7 +51,13 @@
   }
 
   .mobileBody p{
+    text-align: left;
     margin-bottom: 50px;
+  }
+
+  .mobileBody ul{
+    text-align: left;
+    list-style: none;
   }
 
   .projectCentering{

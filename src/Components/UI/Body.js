@@ -39,14 +39,19 @@ const Body = (props) => {
           <p>
             I’m a mathematician, a front-end web developer, a plantsman. In any
             given time working on something new and exciting for me. new
-            projects, new learnings, new findings by me will be posted here. you
-            can contact me! my contact info is below.
+            projects, new learnings, new findings by me will be posted here.
           </p>
-          <Project className={classes.projectCentering}
+          <Project
+            className={classes.projectCentering}
             title="Figure skating - machine learning"
             description="using machine learning to classify videos from figure skating olympics into their type of jump category."
             link="https://github.com/VladdyGo/Figure-Skating"
           ></Project>
+          <p style={{marginTop: '30px'}}>you can contact me! How ? Thats how:</p>
+          <ul>
+            <li>Email: va.goteiner@gmail.com</li>
+            <li>Phone: 054-9092278</li>
+          </ul>
         </div>
       </React.Fragment>
     );
