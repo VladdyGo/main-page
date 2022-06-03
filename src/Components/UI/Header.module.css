@@ -66,6 +66,7 @@ label:hover {
     background-color: #ffffff;
     position: static;
     max-width: 400px;
+    min-width: none;
   }
 
   .mainNav,s
