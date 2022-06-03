@@ -27,3 +27,11 @@
 
   cursor: default;
 }
+
+@media (max-width: 380px) {
+  .mainBody{
+    display:none;
+  }
+
+  
+}
