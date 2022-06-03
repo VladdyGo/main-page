@@ -38,6 +38,7 @@
   }
 
   .mobileBody{
+    display: block;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
@@ -50,7 +51,7 @@
   }
 
   .mobileBody p{
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
 
   .projectCentering{
