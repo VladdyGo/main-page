@@ -28,7 +28,7 @@
   cursor: default;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 900px) {
   .mainBody{
     display:none;
   }
@@ -43,6 +43,10 @@
     text-align: center;
     margin-bottom: 38px;
     font-size: 1.5rem;
+  }
+
+  .mobileBody p{
+    margin-bottom: 200px;
   }
 
   .projectCentering{
