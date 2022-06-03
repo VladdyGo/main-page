@@ -5,6 +5,7 @@ import About from "../Sections/About";
 import Projects from "../Sections/Projects";
 import Contact from "../Sections/Contact";
 import React from "react";
+import Project from "../Dialog/ProjectDialog/ProjectWindow";
 
 const Body = (props) => {
   if (props.bodyContent === "About") {
@@ -33,13 +34,18 @@ const Body = (props) => {
           </label>
           <label style={{ left: "-11.875rem" }}>Contact me, Yo!</label>
         </div>
-        <div>
+        <div className={classes.mobileBody}>
+          <h1>Vladislav Goteiner</h1>
           <p>
             I’m a mathematician, a front-end web developer, a plantsman. In any
             given time working on something new and exciting for me. new
             projects, new learnings, new findings by me will be posted here. you
             can contact me! my contact info is below.
           </p>
+          <Project className={classes.projectCentering}
+            title="Figure skating - machine learning"
+            description="using machine learning to classify videos from figure skating olympics into their type of jump category."
+          ></Project>
         </div>
       </React.Fragment>
     );
