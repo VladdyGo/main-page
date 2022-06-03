@@ -28,6 +28,10 @@
   cursor: default;
 }
 
+.mobileBody{
+  display:none;
+}
+
 @media (max-width: 900px) {
   .mainBody{
     display:none;
