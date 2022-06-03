@@ -65,6 +65,7 @@ label:hover {
   header {
     background-color: #ffffff;
     position: static;
+    max-width: 380px;
   }
 
   .mainNav,s
