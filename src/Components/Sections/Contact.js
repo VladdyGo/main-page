@@ -10,7 +10,6 @@ const Contact = (props) => {
             <li>Email: va.goteiner@gmail.com</li>
             <li>Find me on linkedIn: <a href="https://www.linkedin.com/in/vladislavgoteiner">linkedin.com/in/vladislavgoteiner</a></li>
             <li>Check me out on github: <a href="https://www.github.com/VladdyGo">github.com/VladdyGo</a></li>
-
         </ul>
       </BasicDialogWindow>
     </div>

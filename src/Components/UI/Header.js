@@ -1,5 +1,5 @@
 import classes from "./Header.module.css";
-import presonalImg from "../../img/PersonalPic.png"
+import presonalImg from "../../img/personalPic.png";
 
 const Header = (props) => {
   return (
@@ -17,8 +17,14 @@ const Header = (props) => {
 
       <div name="mobile_header" className={classes.mobileHeader}>
         <div className={classes.pictureFrame}>
-            <img src={presonalImg} alt=""></img>
+          <img src={presonalImg} alt=""></img>
         </div>
+        <h1>Vladislav Goteiner</h1>
+        <p>
+          I’m a mathematician, a front-end web developer, a plantsman. In any
+          given time working on something new and exciting for me. new projects,
+          new learnings, new findings by me will be posted here.
+        </p>
       </div>
     </header>
   );

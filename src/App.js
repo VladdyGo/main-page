@@ -10,6 +10,10 @@ function App() {
     setBodyContent(event.target.innerText);
   };
 
+  // const sayHello = () => {
+  //   console.log('scrolled');
+  // };
+
   return (
     <div>
       <Header bodyContentHandler={bodyContantHandler} />

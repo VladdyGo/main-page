@@ -1,14 +1,18 @@
 html {
   max-width: 100%;
+  scroll-behavior: smooth;
 }
 body {
   position: relative;
   background-color: white;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   margin: 0;
   padding: 0;
   color: black;
 }
 .listStyle {
   margin-top: 0;
+}
+.scroll {
+  overflow-y: hidden;
 }

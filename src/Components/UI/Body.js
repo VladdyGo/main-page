@@ -35,12 +35,6 @@ const Body = (props) => {
           <label style={{ left: "-11.875rem" }}>Contact me, Yo!</label>
         </div>
         <div className={classes.mobileBody}>
-          <h1>Vladislav Goteiner</h1>
-          <p>
-            I’m a mathematician, a front-end web developer, a plantsman. In any
-            given time working on something new and exciting for me. new
-            projects, new learnings, new findings by me will be posted here.
-          </p>
           <Project
             className={classes.projectCentering}
             title="Figure skating - machine learning"
