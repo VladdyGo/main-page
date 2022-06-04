@@ -25,6 +25,7 @@ const Header = (props) => {
           given time working on something new and exciting for me. new projects,
           new learnings, new findings by me will be posted here.
         </p>
+        yes
       </div>
     </header>
   );
