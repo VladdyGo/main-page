@@ -5,6 +5,10 @@
 
 .projectTitle {
   position: relative;
+  background-image: url('../../../img/figure-skating-boot.svg');
+  background-size: 4rem;
+  background-repeat: no-repeat;
+  background-position: 5%,10%;
   height: 7.8125rem;
   width: 100%;
   background-color: rgba(196, 196, 196, 0.2);
