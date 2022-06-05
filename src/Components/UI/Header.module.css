@@ -96,6 +96,7 @@ label:hover {
     max-width: 750px;
     left: 50%;
     transform: translate(-50%,0);
+    width: 90%;
   }
 
   .pictureFrame {
