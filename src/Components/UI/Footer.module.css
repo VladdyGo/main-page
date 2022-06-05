@@ -34,3 +34,19 @@ footer{
 .contactList li:hover {
   cursor: pointer;
 }
+
+@media (max-width: 900px){
+  .contactList{
+    font-size: 0.9rem;
+    text-align: right;
+  }
+
+  .contactList li{
+    display:block;
+  }
+
+  .contactList li a{
+    text-decoration:none;
+    color: white;
+  }
+}

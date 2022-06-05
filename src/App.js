@@ -1,6 +1,7 @@
 import classes from "./App.module.css";
 import Header from "./Components/UI/Header";
 import Body from "./Components/UI/Body";
+import Footer from "./Components/UI/Footer";
 import { useState } from "react";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     setBodyContent(event.target.innerText);
   };
 
-  const sayHello = (event) => {
+  const mobileScrolling = (event) => {
       if(currentpageLocation < window.pageYOffset){
         window.scrollBy({
           top: 600,
@@ -29,9 +30,10 @@ function App() {
     }
 
   return (
-    <div onTouchMove={sayHello} onWheel={sayHello}>
+    <div onTouchMove={mobileScrolling}>
       <Header bodyContentHandler={bodyContantHandler} />
       <Body bodyContent={bodyContent} />
+      <Footer/>
     </div>
   );
 }
