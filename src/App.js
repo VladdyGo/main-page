@@ -12,16 +12,24 @@ function App() {
   };
 
   const sayHello = (event) => {
-      if(currentpageLocation > window.pageYOffset){
-        window.scrollBy(0,600);
-      } else if(currentpageLocation < window.pageYOffset){
-        window.scrollBy(0,-600);
+      if(currentpageLocation < window.pageYOffset){
+        window.scrollBy({
+          top: 600,
+          left: 0,
+          behavior: 'smooth'
+        });
+      } else if(currentpageLocation > window.pageYOffset){
+        window.scrollBy({
+          top: 600,
+          left: 0,
+          behavior: 'smooth'
+        });
       }
       currentpageLocation = window.pageYOffset;
     }
 
   return (
-    <div onTouchMove={sayHello}>
+    <div onTouchMove={sayHello} onWheel={sayHello}>
       <Header bodyContentHandler={bodyContantHandler} />
       <Body bodyContent={bodyContent} />
     </div>
