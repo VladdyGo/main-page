@@ -1,6 +1,6 @@
-footer{
+footer {
   position: fixed;
-  bottom:0;
+  bottom: 0;
   /* top: calc(1041px - 100px); */
   /* top: 95vh; */
 
@@ -10,18 +10,17 @@ footer{
   padding-bottom: 20px;
 }
 .contactList {
-
   font-weight: 500;
   font-size: 30px;
 
   text-align: right;
 
-  margin:0;
+  margin: 0;
 
-  padding-top:0rem;
-  padding-right:0rem;
-  padding-left:0rem;
-  padding-bottom:1rem;
+  padding-top: 0rem;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  padding-bottom: 1rem;
 
   color: white;
 }
@@ -35,18 +34,40 @@ footer{
   cursor: pointer;
 }
 
-@media (max-width: 900px){
-  .contactList{
+@media (max-width: 900px) {
+  footer{
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .title {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+
     font-size: 0.9rem;
-    text-align: right;
+    color: white;
+    text-align: center;
+    border-bottom: 0.5px solid white;
+    border-width: 1px;
+    border-color: darkgray;
+    padding-bottom: 10px;
+    display: inline-block;
+    
+  }
+  .contactList {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-bottom: 0;
   }
 
-  .contactList li{
-    display:block;
+  .contactList li {
+    display: block;
+    margin-bottom: 10px;
+    padding-right: 0rem;
   }
 
-  .contactList li a{
-    text-decoration:none;
+  .contactList li a {
+    text-decoration: none;
     color: white;
   }
 }

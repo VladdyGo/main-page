@@ -41,11 +41,6 @@ const Body = (props) => {
             description="using machine learning to classify videos from figure skating olympics into their type of jump category."
             link="https://github.com/VladdyGo/Figure-Skating"
           ></Project>
-          <p style={{marginTop: '30px'}}>you can contact me! How ? Thats how:</p>
-          <ul>
-            <li>Email: va.goteiner@gmail.com</li>
-            <li>Phone: 054-9092278</li>
-          </ul>
         </div>
       </React.Fragment>
     );
