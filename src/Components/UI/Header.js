@@ -1,5 +1,5 @@
 import classes from "./Header.module.css";
-import presonalImg from "../../img/personalPic.png";
+// import presonalImg from "../../img/personalPic.png";
 
 const Header = (props) => {
   return (
