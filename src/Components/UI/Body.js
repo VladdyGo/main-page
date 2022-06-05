@@ -34,7 +34,9 @@ const Body = (props) => {
           </label>
           <label style={{ left: "-11.875rem" }}>Contact me, Yo!</label>
         </div>
+
         <div className={classes.mobileBody}>
+          <h1>Some of my work</h1>
           <Project
             className={classes.projectCentering}
             title="Figure skating - machine learning"

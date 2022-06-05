@@ -28,29 +28,35 @@
   cursor: default;
 }
 
-.mobileBody{
-  display:none;
+.mobileBody {
+  display: none;
 }
 
 @media (max-width: 900px) {
-  .mainBody{
-    display:none;
+  .mainBody {
+    display: none;
   }
 
-  .mobileBody{
+  .mobileBody {
     display: block;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    height: 600px;
+    height: 450px;
   }
 
-  .mobileBody ul{
+  .mobileBody ul {
     text-align: left;
     list-style: none;
   }
 
-  .projectCentering{
-    margin:auto;
+  .mobileBody h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  .projectCentering {
+    margin: auto;
   }
 }
