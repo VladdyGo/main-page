@@ -3,6 +3,7 @@ footer {
   bottom: 0;
   /* top: calc(1041px - 100px); */
   /* top: 95vh; */
+  min-width: 345px;
 
   background-color: green;
   width: 100%;

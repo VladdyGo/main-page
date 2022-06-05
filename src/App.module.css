@@ -1,5 +1,6 @@
 html {
   max-width: 100%;
+  min-width: 345px;
   scroll-behavior: smooth;
 }
 body {

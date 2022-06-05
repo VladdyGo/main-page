@@ -90,8 +90,12 @@ label:hover {
   }
 
   .mobileHeader p {
+    display: inline-block;
+    position: relative;
     text-align: center;
     max-width: 750px;
+    left: 50%;
+    transform: translate(-50%,0);
   }
 
   .pictureFrame {
