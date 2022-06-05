@@ -5,17 +5,23 @@ import { useState } from "react";
 
 function App() {
   const [bodyContent, setBodyContent] = useState("None");
+  let currentpageLocation = 0;
 
   const bodyContantHandler = (event) => {
     setBodyContent(event.target.innerText);
   };
 
-  // const sayHello = () => {
-  //   console.log('scrolled');
-  // };
+  const sayHello = (event) => {
+      if(currentpageLocation > window.pageYOffset){
+        window.scrollBy(0,600);
+      } else if(currentpageLocation < window.pageYOffset){
+        window.scrollBy(0,-600);
+      }
+      currentpageLocation = window.pageYOffset;
+    }
 
   return (
-    <div>
+    <div onWheel={sayHello}>
       <Header bodyContentHandler={bodyContantHandler} />
       <Body bodyContent={bodyContent} />
     </div>
