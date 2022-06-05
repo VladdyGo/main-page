@@ -21,7 +21,7 @@ function App() {
     }
 
   return (
-    <div onWheel={sayHello}>
+    <div onTouchMove={sayHello}>
       <Header bodyContentHandler={bodyContantHandler} />
       <Body bodyContent={bodyContent} />
     </div>
