@@ -1,6 +1,7 @@
 .projectCard {
   width: 325px;
   height: 250px;
+  border-radius: 5px;
 }
 
 .projectTitle {
