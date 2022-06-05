@@ -20,7 +20,7 @@ function App() {
         });
       } else if(currentpageLocation > window.pageYOffset){
         window.scrollBy({
-          top: 600,
+          top: -600,
           left: 0,
           behavior: 'smooth'
         });
