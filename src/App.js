@@ -1,4 +1,3 @@
-import classes from "./App.module.css";
 import Header from "./Components/UI/Header";
 import Body from "./Components/UI/Body";
 import Footer from "./Components/UI/Footer";

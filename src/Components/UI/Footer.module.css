@@ -1,9 +1,10 @@
 footer {
-  position: static;
+  position: reletive;
   bottom: 0;
   /* top: calc(1041px - 100px); */
   /* top: 95vh; */
   min-width: 345px;
+  display: none;
 
   background-color: green;
   width: 100%;
@@ -37,6 +38,7 @@ footer {
 
 @media (max-width: 900px) {
   footer{
+    display: block;
     padding-bottom: 0px;
     padding-top: 0px;
   }

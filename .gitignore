@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+/leetcode
+
 # production
 /build
 
