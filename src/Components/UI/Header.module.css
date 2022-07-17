@@ -64,13 +64,12 @@ label:hover {
 @media (max-width: 900px) {
   .plantLogo{
     position: absolute;
-    top: 30px;
-    left: 40px;
+    top: 20px;
+    left: 20px;
   }
   .plantLogo img{
-    max-height: 118px;
-    max-width: 90px;
-    object-fit: fill;
+    max-height: 80px;
+    object-fit:contain;
   }
   header {
     background-color: #ffffff;
