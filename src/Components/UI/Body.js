@@ -42,7 +42,7 @@ const Body = (props) => {
             title="Figure skating - machine learning"
             description="using machine learning to classify videos from figure skating olympics into their type of jump category."
             link="https://github.com/VladdyGo/Figure-Skating"
-            color='#FF5733'
+            color='#679681'
           ></Project>
         </div>
       </React.Fragment>
