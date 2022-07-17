@@ -32,7 +32,7 @@ function App() {
     }
 
   return (
-    <div className={style.theMainFont} onTouchMove={mobileScrolling}>
+    <div className={style.theMainFont}>
       <Header bodyContentHandler={bodyContantHandler} />
       <Body bodyContent={bodyContent} />
       <Footer/>
