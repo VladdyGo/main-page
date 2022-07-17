@@ -62,6 +62,16 @@ label:hover {
 }
 
 @media (max-width: 900px) {
+  .plantLogo{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
+  .plantLogo img{
+    max-height: 118px;
+    max-width: 90px;
+    object-fit: fill;
+  }
   header {
     background-color: #ffffff;
     position: static;
@@ -80,6 +90,10 @@ label:hover {
     position: static;
     display: block;
     width: 100%;
+    /* background-image: url("../../img/IMG_0100.PNG");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 50% 50%; */
   }
 
   .mobileHeader h1 {

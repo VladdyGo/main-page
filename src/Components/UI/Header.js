@@ -1,5 +1,6 @@
 import classes from "./Header.module.css";
 import presonalImg from "../../img/personalPic.png";
+import plantLogo from "../../img/plantLogo.png";
 
 const Header = (props) => {
   return (
@@ -16,6 +17,7 @@ const Header = (props) => {
       </div>
 
       <div name="mobile_header" className={classes.mobileHeader}>
+        <div className={classes.plantLogo}><img src={plantLogo} alt="plantLOGO"></img></div>
         <div className={classes.pictureFrame}>
           <img src={presonalImg} alt=""></img>
         </div>
