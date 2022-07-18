@@ -3,6 +3,7 @@
   height: 250px;
   border-radius: 5px;
   color:white;
+  opacity: 95%;
 }
 
 .projectTitle {
@@ -13,7 +14,7 @@
   background-position: 5%,10%;
   height: 7.8125rem;
   width: 100%;
-  background-color: rgba(196, 196, 196, 0.2);
+  background-color: rgba(196, 196, 196,0.2);
   font-size: 1rem;
 }
 

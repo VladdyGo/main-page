@@ -14,11 +14,6 @@
   font-size: 3.5rem;
 
   line-height: 70px;
-
-  background-image: url("../../img/Illustration.svg");
-  background-repeat: no-repeat;
-  background-size: 700px;
-  background-position: 70% 100%;
 }
 
 .mainBody label {
@@ -32,6 +27,16 @@
   display: none;
 }
 
+.bodyStyle img {
+  position: absolute;
+  top:20px;
+  left: 60%;
+  transform: translate(-50%, 0%);
+  width: 100vw;
+  z-index: -1;
+
+}
+
 @media (max-width: 900px) {
   .mainBody {
     display: none;
@@ -43,6 +48,11 @@
     padding-right: 10px;
     text-align: center;
     height: 450px;
+  }
+
+  .bodyStyle img {
+    position: absolute;
+    left: 50%;
   }
 
   .mobileBody ul {
