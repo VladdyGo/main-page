@@ -7,13 +7,24 @@
 .mainBody {
   position: relative;
   display: inline-block;
-  left: 352px;
+  left: 50%;
   top: 77px;
-  height: 800px;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1000px;
+  max-height: 600px;
+
+  border-radius: 50px;
+
+  transform: translate(-50%,0);
 
   font-size: 3.5rem;
 
   line-height: 70px;
+
+  background-image: url('../../img/background.png');
+  background-repeat: no-repeat;
+  background-size:auto;
 }
 
 .mainBody label {
@@ -28,12 +39,13 @@
 }
 
 .bodyStyle img {
-  position: absolute;
+  position: relative;
   top:20px;
-  left: 60%;
-  transform: translate(-50%, 0%);
-  width: 100vw;
+  width: 100%;
+  transform: translate(30%,0);
+  object-fit: contain;
   z-index: -1;
+  float:right;
 
 }
 

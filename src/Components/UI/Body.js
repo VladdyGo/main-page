@@ -1,6 +1,6 @@
 import classes from "./Body.module.css";
 import animation from "../../Animations/bodyAnimation.module.css";
-import background from "../../img/CoolBackground.png";
+import background from "../../img/background.png";
 
 import About from "../Sections/About";
 import Projects from "../Sections/Projects";
@@ -25,8 +25,8 @@ const Body = (props) => {
   if (props.bodyContent === "VG" || props.bodyContent === "None") {
     return (
       <React.Fragment>
-        <div className={classes.bodyStyle}>
-          <img src={background} alt=""></img>
+        <div className={classes.mainBody}>
+          <p>This is some random text i'm writing now. sky is blue, roses are red the day is done ,time to go to bed</p>
         </div>
 
         <div className={classes.mobileBody}>
