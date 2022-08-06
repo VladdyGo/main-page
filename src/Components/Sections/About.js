@@ -2,7 +2,7 @@ import BigDialogWindow from '../Dialog/BigDialogWindow/DialogWindow';
 
 const About = (props) => {
   return (
-    <div className={`${props.bodyStyle}`}>
+    <div className={`${props.bodyStyle} ${props.font}`}>
       <BigDialogWindow title="About me">
         <p>
           My name is Vladislav Goteiner, I'm a starting full stack web developer. 
@@ -10,6 +10,7 @@ const About = (props) => {
           Here I will post my projects and show off my skills.
         </p> 
         <p>I graduated from H.I.T with a degree in applied mathematics.</p>
+        <p>I'm Looking for a job! Don't be shy contact me as fast as you can before I go nuts.</p>
       </BigDialogWindow>
     </div>
   );

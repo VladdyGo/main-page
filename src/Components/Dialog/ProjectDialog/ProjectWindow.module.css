@@ -1,5 +1,7 @@
 .projectCard {
-  width: 325px;
+  position:relative;
+  max-width: 400px;
+  width: 100vw;
   height: 250px;
   border-radius: 5px;
   color:white;
@@ -14,7 +16,7 @@
   background-position: 5%,10%;
   height: 7.8125rem;
   width: 100%;
-  background-color: rgba(196, 196, 196,0.2);
+  background-color: rgba(196, 196, 196,0.2); 
   font-size: 1rem;
 }
 
@@ -33,3 +35,5 @@
 
   transform: translate(-50%, -50%);
 }
+
+

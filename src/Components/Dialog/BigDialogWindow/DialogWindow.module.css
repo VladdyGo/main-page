@@ -1,24 +1,18 @@
 .dialogContainer {
-  position: absolute;
-  top: 77px;
-  left: 50%;
+  position: relative;
+  display: block;
 
-  transform: translate(-50%,0);
+  margin:auto;
 
-  width: 1024px;
-  height: 703px;
+  margin-bottom: 50px;
+
+  border-bottom: 10px solid black;
 }
 
 .dialogContainer .titleContainer {
   position: relative;
-  height: 116px;
-  background-color: rgba(192, 192, 192, 0.4);
-}
-
-.dialogContainer .contentContainer {
-  height: 587;
-  top: 116px;
-  background-color: salmon;
+  height: 100px;
+  background-color: rgba(192, 192, 192, 0.6);
 }
 
 .titleContainer label {
@@ -28,16 +22,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .contentContainer label {
   cursor: default;
-  height: calc(100% - 116px - 40px);
-  position: absolute;
+  max-width: inherit;
+  /* height: calc(100% - 116px - 40px); */
+  /* position: absolute; */
   top: calc(116px + 20px);
   right: 20px;
   left: 20px;
 
   font-size: 1.5rem;
+}
+
+@media (max-width: 900px){
+  /* .dialogContainer{
+      display: none;
+  } */
 }

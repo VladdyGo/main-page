@@ -14,7 +14,7 @@ const DialogWindow = (props) => {
     //   <h2>{props.title}</h2>
     //   <p>{props.children}</p>
     // </div>
-    <div className={`${classes.dialogContainer} ${animationClasses.runAnimation}`}>
+    <div className={`${classes.dialogContainer} ${animationClasses.runAnimation} ${props.bodyStyle}`}>
       <div className={classes.titleContainer}><label name={props.title}>{props.title}</label></div>
       <div className={classes.shortDescriptionContainer}><label name={props.shortDescription}>{props.shortDescription}</label></div>
       <div className={classes.mainContentContainer}><label name='content'>{props.children}</label></div>

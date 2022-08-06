@@ -9,3 +9,17 @@
     from { opacity: 0; display: none;}
     to { opacity: 3; display: block; }
 }
+
+
+.navigationAnimation:hover{
+    animation-timing-function:ease-out;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-duration: 0.4s;
+    animation-name: navigationHover;
+}
+
+@keyframes navigationHover{
+    from{top:0}
+    to{top:-5px}
+}

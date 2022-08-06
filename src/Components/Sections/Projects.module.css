@@ -1,21 +1,23 @@
-.projectList {
-  position: relative;
-  display: inline-block;
-  top:77px;
-  left: 50vw;
-
-  transform: translate(-50%,0);
-
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.projectOrg {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  flex-basis: content;
+  align-content: center;
+  align-items: stretch;
+  row-gap: 15px;
 }
 
-.project {
-  margin: 20px;
-  display: inline-block;
+@media (min-width: 900px) {
+  .projectOrg {
+    flex-direction: row;
+  }
 }
 
-.projectListContainer {
-  margin-top: 10px;
+@media (max-width: 900px) {
+  .projectOrg {
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
 }

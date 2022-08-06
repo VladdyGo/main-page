@@ -1,21 +1,18 @@
 .dialogContainer{
-    position: absolute;
+    position: relative;
     left:50%;
-    top:77px;
 
     transform: translate(-50%,0);
     
     align-items: center;
-    height: 26.625rem;    ;
-    width: 64rem;
+    height: 26.625rem;   
 }
 
 .dialogContainer .titleContainer{
     position: relative;
 
-    /* height: 180px; */
     height: 11.25rem;
-    width: 392px;
+    width: 30%;
 
     display: inline-block;
 
@@ -24,9 +21,8 @@
 
 .mainContentContainer{
     position: absolute;
-    left: 392px;
     display: inline-block;
-    width: calc(1024px - 392px);
+    width: 70%;
     height: 100%;
     
     background-color: rgba(196, 196, 196, 0.4);
@@ -50,7 +46,7 @@
 .shortDescriptionContainer{
     position: absolute;
     display: inline-block;
-    width: 392px;
+    width: 30%;
     bottom:0px;
     left: 0;
     height: calc(426px - 180px);
@@ -78,4 +74,10 @@
 
 .shortDescriptionContainer label{
     font-size: 1.5rem;
+}
+
+@media (max-width: 900px){
+    .dialogContainer{
+        display: none;
+    }
 }
