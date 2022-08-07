@@ -77,9 +77,11 @@ label:hover {
 
   .plantLogo{
     position: absolute;
+    -webkit-position: absolute;
 
     top:50%;
     transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
 
     height: 100px;
     object-fit: contain;
