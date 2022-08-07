@@ -82,14 +82,11 @@ label:hover {
     top:50%;
     transform: translate(0,-50%);
     -webkit-transform: translate(0,-50%);
-
-    height: 100px;
-    object-fit: contain;
   }
 
   .plantLogo img{
     max-height: 100px;
-    /* object-fit:cover; */
+    object-fit:cover;
   }
 
   .mainNav,
