@@ -3,12 +3,12 @@
   width: 70%;
   margin: auto;
   padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 .mainBody {
   height: 100%;
   width: 70vw;
-  max-width: 70vw;
 
   border-radius: 30px;
 
@@ -33,6 +33,10 @@
   color: white;
 }
 
+.mainBody h1{
+  font-size: 4rem;
+}
+
 .mainBody label {
   position: relative;
   display: block;
@@ -45,15 +49,11 @@
 }
 
 @media (max-width: 900px) {
-  /* .bodyStyle,
-  .mainBody {
-    display: none;
-  } */
 
-  .mobileBody {
-    display: block;
-    text-align: center;
-    height: 450px;
+  .bodyStyle,
+  .mainBody {
+    width: 90vw;
+    min-width: 400px;
   }
 
   .bodyStyle img {
@@ -66,10 +66,13 @@
     list-style: none;
   }
 
-  .mobileBody h1 {
+  .mainBody h1 {
     text-align: center;
     margin-top: 10px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+
+    margin-block-end: 10px;
+    margin-block-start: 10px;
   }
 
   .projectCentering {

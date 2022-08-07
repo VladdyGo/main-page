@@ -3,6 +3,7 @@ import presonalImg from "../../img/personalPic.png";
 import plantLogo from "../../img/plantLogo.png";
 import animation from "../../Animations/bodyAnimation.module.css";
 import font from '../../Fonts/fonts.module.css';
+import menuIcon from '../../Icons/Menu.svg'
 
 const Header = (props) => {
   return (
@@ -24,6 +25,9 @@ const Header = (props) => {
         </div>
         <div className={classes.logo} onClick={props.bodyContentHandler}>
           <label name="Vladislav Goteienr Logo">VG</label>
+        </div>
+        <div className={classes.menuIcon}>
+          <img src={menuIcon} alt="Menu"/>
         </div>
       </div>
     </header>

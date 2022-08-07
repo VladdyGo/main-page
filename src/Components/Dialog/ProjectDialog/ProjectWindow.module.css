@@ -1,6 +1,7 @@
 .projectCard {
   position:relative;
   max-width: 400px;
+  min-width: 300px;
   width: 100vw;
   height: 250px;
   border-radius: 5px;

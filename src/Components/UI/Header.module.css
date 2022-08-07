@@ -30,6 +30,10 @@ header {
   border-radius: 50px;
 }
 
+.menuIcon{
+  display: none;
+}
+
 .mainNav .logo:hover,
 label:hover {
   cursor: pointer;
@@ -63,25 +67,27 @@ label:hover {
 }
 
 @media (max-width: 900px) {
-  .plantLogo{
-    position: absolute;
-    /* width: 4rem; */
-    height: 4rem;
-    object-fit: contain;
-    /* top: 20px;
-     object-fit: contain;
-    left: 20px; */
-  }
-  .plantLogo img{
-    max-height: 100px;
-    object-fit:cover;
-  }
   header {
     background-color: #ffffff;
-    position: static;
+    position: relative;
     max-width: 900px;
     min-width: 0px;
     padding: 20px;
+  }
+
+  .plantLogo{
+    position: absolute;
+
+    top:50%;
+    transform: translate(0,-50%);
+
+    height: 4rem;
+    object-fit: contain;
+  }
+
+  .plantLogo img{
+    max-height: 100px;
+    object-fit:cover;
   }
 
   .mainNav,
@@ -106,4 +112,19 @@ label:hover {
   .logo{
     font-size: 4rem;
   }
+
+  .menuIcon{
+    position:absolute;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    top:50%;
+    transform: translate(0,-50%);
+  }
+
+  /* .menuIcon svg{
+    height: 60px;
+    width: 60px;
+  } */
 }
