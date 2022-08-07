@@ -81,7 +81,7 @@ label:hover {
     top:50%;
     transform: translate(0,-50%);
 
-    height: 4rem;
+    height: 100px;
     object-fit: contain;
   }
 
