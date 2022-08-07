@@ -23,8 +23,9 @@
 
   line-height: 70px;
 
-  background-image: url("../../img/backgroundImage/backgroundImg.png");
+  background-image: url("../../img/backgroundImage/titleBackground.png");
   background-repeat: no-repeat;
+  /* background-size: auto; */
   background-size: 100vw;
   background-position-y: 50%;
   text-align: center;
