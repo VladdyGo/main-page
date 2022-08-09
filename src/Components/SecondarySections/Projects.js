@@ -2,12 +2,12 @@ import ProjectDialogWindow from "../Dialog/ProjectDialog/ProjectWindow";
 import classes from "./Projects.module.css";
 import animation from "../../Animations/bodyAnimation.module.css";
 import BigDialogWindow from "../Dialog/BigDialogWindow/DialogWindow";
-import { Fragment } from "react";
 import React from "react";
+import CommonStyles from './CommonStyles/CommonStyles.module.css';
 
 const Projects = (props) => {
   return (
-    <div className={props.bodyStyle}>
+    <div className={`${props.bodyStyle} ${CommonStyles.SecondaryComponentWindow}`}>
       <BigDialogWindow title={"Some of my work"}>
         <p>Take a good look down below. You might find something worthwhile!</p>
       </BigDialogWindow>

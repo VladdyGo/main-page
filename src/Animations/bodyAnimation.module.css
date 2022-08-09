@@ -1,25 +1,36 @@
-.runAnimation{
-    opacity: 0;
-    animation: fadeIn 0.5s;
-    animation-delay: 0.2s;
-    animation-fill-mode: forwards;
+.runAnimation {
+  opacity: 0;
+  animation: fadeIn 0.5s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; display: none;}
-    to { opacity: 3; display: block; }
+  from {
+    opacity: 0;
+    display: none;
+  }
+  to {
+    opacity: 3;
+    display: block;
+  }
 }
 
-
-.navigationAnimation:hover{
-    animation-timing-function:ease-out;
+@media (min-width: 900px) {
+  .navigationAnimation:hover {
+    animation-timing-function: ease-out;
     animation-fill-mode: forwards;
     animation-direction: normal;
     animation-duration: 0.4s;
     animation-name: navigationHover;
-}
+  }
 
-@keyframes navigationHover{
-    from{top:0}
-    to{top:-5px}
+  @keyframes navigationHover {
+    from {
+      top: 0;
+    }
+    to {
+      top: -5px;
+    }
+  }
 }

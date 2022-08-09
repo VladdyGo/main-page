@@ -1,6 +1,6 @@
 .bodyStyle {
   height: 100%;
-  width: 70%;
+  width: 100%;
   margin: auto;
   padding-top: 100px;
   padding-bottom: 20px;
@@ -23,14 +23,17 @@
 
   line-height: 70px;
 
-  background-image: url("../../img/backgroundImage/titleBackground.png");
+  background-image: url("../../../img/backgroundImage/titleBackground.png");
   background-repeat: no-repeat;
-  /* background-size: auto; */
   background-size: 100vw;
   background-position-y: 50%;
   text-align: center;
 
   color: white;
+}
+
+.headlineWidth{
+  width: 80vw;
 }
 
 .mainBody h1{
@@ -52,7 +55,11 @@
 
   .bodyStyle,
   .mainBody {
-    width: 100%;
+    width: 90%;
+  }
+
+  .headlineWidth{
+    width: 100vw;
   }
 
   .bodyStyle img {

@@ -1,11 +1,11 @@
 import classes from "./Body.module.css";
 
-import About from "../Sections/About";
-import Projects from "../Sections/Projects";
-import Contact from "../Sections/Contact";
+import About from "../../SecondarySections/About";
+import Projects from "../../SecondarySections/Projects";
+import Contact from "../../SecondarySections/Contact";
 import React from "react";
 
-import font from "../../Fonts/fonts.module.css";
+import font from "../../../Fonts/fonts.module.css";
 
 const Body = (props) => {
   if (props.bodyContent === "About") {
@@ -22,7 +22,7 @@ const Body = (props) => {
 
   if (props.bodyContent === "VG" || props.bodyContent === "None") {
     return (
-      <div className={`${classes.bodyStyle} ${classes.mainBody} ${font.fontQuantico}`}>
+      <div className={`${classes.mainBody} ${font.fontQuantico} ${classes.headlineWidth}`}>
           <h1>Vladislav Goteienr</h1>
       </div>
     );

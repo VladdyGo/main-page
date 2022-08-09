@@ -5,6 +5,11 @@ header {
   height: 100%;
 }
 
+.mobileMenuNavigationWindow
+{
+  display: none;
+}
+
 .mainNav {
   /* position: relative; */
   width: 100%;
@@ -39,31 +44,13 @@ label:hover {
   cursor: pointer;
 }
 
-.mainNav nav {
-  position: absolute;
-  display: inline-block;
-  top: 60px;
-  transform: translate(0,-15px);
-  right: 66px;
-}
-
-.mainNav nav li {
-  position:relative; /*Just now added*/
-  list-style: none;
-  display: inline-block;
-  margin-right: 24px;
-  color: black;
-  border-bottom: black 1px solid;
-  padding-bottom:10px;
-}
-
-.mainNav nav li:hover {
-  border-color: white;
-  cursor: pointer;
-}
-
 .mobileHeader {
   display: none;
+}
+
+.clickedNav{
+  top:-5px;
+  border: 0;
 }
 
 @media (max-width: 900px) {
@@ -73,9 +60,29 @@ label:hover {
     max-width: 900px;
     min-width: 0px;
     padding: 20px;
+    z-index: 0;
+  }
+
+  .show{
+    display: inline-block;
+  }
+  
+  .hide{
+    display: none;
+  }
+
+  .mobileMenuNavigationWindow
+  {
+    background-color: tomato;
+    position: absolute;
+    height: 10vh;
+    right:0;
+    top:0;
+    z-index: 1;
   }
 
   .plantLogo{
+    display: none;
     position: absolute;
     -webkit-position: absolute;
 
@@ -90,7 +97,6 @@ label:hover {
   }
 
   .mainNav,
-  s .mainNav nav,
   .mainNav .logo {
     display: none;
   }
@@ -115,8 +121,8 @@ label:hover {
   .menuIcon{
     position:absolute;
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     right: 30px;
     top:50%;
     transform: translate(0,-50%);

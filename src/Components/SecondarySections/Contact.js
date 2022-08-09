@@ -1,9 +1,10 @@
 import BasicDialogWindow from "../Dialog/BasicDialogWindow/DialogWindow";
 import classes from "./Contact.module.css";
+import CommonStyles from './CommonStyles/CommonStyles.module.css';
 
 const Contact = (props) => {
   return (
-    <div className={props.bodyStyle}>
+    <div className={`${props.bodyStyle} ${CommonStyles.SecondaryComponentWindow}`}>
       <BasicDialogWindow
         title="Contact Info"
         shortDescription="You can reach out to me or find my work here"

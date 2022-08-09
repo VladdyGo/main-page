@@ -1,0 +1,42 @@
+nav {
+  position: absolute;
+  display: inline-block;
+  top: 60px;
+  transform: translate(0, -15px);
+  right: 66px;
+}
+
+nav li {
+  position: relative; /*Just now added*/
+  top: auto;
+  list-style: none;
+  display: inline-block;
+  margin-right: 24px;
+  color: black;
+  border-bottom: black 3px solid;
+  padding-bottom: 2px;
+}
+
+nav li:hover {
+  border-color: white;
+  cursor: pointer;
+}
+
+@media(max-width: 900px){
+  nav{
+    display: flex;
+    height: 100%;
+    position: relative;
+    flex-direction: column;
+    transform: translate(0,0);
+    top:10px;
+    left:10px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    z-index: 1;
+    text-align: center;
+  }
+
+  
+}
+

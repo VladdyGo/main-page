@@ -1,3 +1,4 @@
 .theMainStyle {
   width: 100vw;
+  z-index: -1;
 }

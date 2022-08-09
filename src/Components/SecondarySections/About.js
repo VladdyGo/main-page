@@ -1,8 +1,9 @@
 import BigDialogWindow from '../Dialog/BigDialogWindow/DialogWindow';
+import CommonStyles from './CommonStyles/CommonStyles.module.css';
 
 const About = (props) => {
   return (
-    <div className={`${props.bodyStyle} ${props.font}`}>
+    <div className={`${props.bodyStyle} ${props.font} ${CommonStyles.SecondaryComponentWindow}`}>
       <BigDialogWindow title="About me">
         <p>
           My name is Vladislav Goteiner, I'm a starting full stack web developer. 

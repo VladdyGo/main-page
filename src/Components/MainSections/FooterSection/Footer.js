@@ -1,5 +1,4 @@
 import classes from "./Footer.module.css";
-import linkImg from "../../img/link-img.svg";
 
 const Footer = () => {
   return (
