@@ -1,5 +1,13 @@
-.SecondaryComponentWindow{
+.SecondaryComponentWindow {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .SecondaryComponentWindow {
     width: 80%;
     margin: auto;
     height: 100%;
+  }
 }

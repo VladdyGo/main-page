@@ -15,17 +15,17 @@ const Projects = (props) => {
       </BigDialogWindow>
       <div className={`${animation.runAnimation} ${classes.projectOrg}`}>
         <ProjectDialogWindow
-          title="Figure skating - machine learning"
+          title="Figure skating"
           description="using machine learning to classify videos from figure skating olympics into their type of jump category."
           link="https://github.com/VladdyGo/Figure-Skating"
-          color="#214030"
+          color="#FFDB58"
         ></ProjectDialogWindow>
 
         <ProjectDialogWindow
           title="Doggo"
           description="An internet and mobile app that connects between people and their doggos."
           link=""
-          color="#999045"
+          color="#FFDB58"
         ></ProjectDialogWindow>
       </div>
     </div>

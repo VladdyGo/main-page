@@ -7,8 +7,8 @@ const ProjectWindow = (props) => {
 
   return (
     <div className={`${classes.projectCard} ${props.className}`} style={props.color ? {backgroundColor:props.color}:{}}>
-      <div className={classes.projectTitle} onClick={reDir}><label name={props.title}>{props.title}</label></div>
-      <div className={classes.projectShortDescription}><label name={props.description}>{props.description}</label></div>
+      <div className={classes.projectTitle} onClick={reDir}><h3 name={props.title}>{props.title}</h3></div>
+      <div className={classes.projectShortDescription}><p name={props.description}>{props.description}</p></div>
     </div>
   );
 };

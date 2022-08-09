@@ -13,6 +13,15 @@
   position: relative;
   height: 100px;
   background-color: rgba(192, 192, 192, 0.6);
+
+  background-image: url('../../../img/backgroundImage/titleBackground.png');
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-position-x: 50%;
+
+  color: white;
+
+  border-radius: 50px 8px 50px 8px;
 }
 
 .titleContainer label {
@@ -38,7 +47,18 @@
 }
 
 @media (max-width: 900px){
-  /* .dialogContainer{
-      display: none;
-  } */
+  .dialogContainer{
+    border-bottom: 5px solid black;
+  }
+
+  .dialogContainer .titleContainer{
+    border-radius: 50px 8px 50px 8px;
+  }
+
+  .titleContainer label{
+    font-size: 2rem;
+  }
+  .contentContainer label{
+    font-size: 1rem;
+  }
 }

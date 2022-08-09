@@ -1,7 +1,7 @@
 .projectOrg {
   display: flex;
   flex-flow: wrap;
-  justify-content: center;
+  justify-content:space-evenly;
   flex-basis: content;
   align-content: center;
   align-items: stretch;

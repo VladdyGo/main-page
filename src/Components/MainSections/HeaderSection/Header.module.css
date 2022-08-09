@@ -79,7 +79,7 @@ label:hover {
     top:0;
     z-index: 1;
     padding:20px;
-
+    background-color: #4e68ff;
     border-radius: 0 0 0 20px;
   }
 
@@ -118,6 +118,7 @@ label:hover {
 
   .logo{
     font-size: 4rem;
+    display: inline;
   }
 
   .menuIcon{
