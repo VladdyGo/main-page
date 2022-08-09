@@ -60,7 +60,8 @@ const Header = (props) => {
       >
         <NavigationTopRightLinks
           bodyContentHandler={props.bodyContentHandler}
-          activeMobileMenuStatus = {props.activeMobileMenuStatus}
+          activeMobileMenuStatus={props.activeMobileMenuStatus}
+          menuIconClickHandler={menuIconClickHandler}
         />
       </div>
     </header>
