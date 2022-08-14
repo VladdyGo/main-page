@@ -6,18 +6,28 @@
 
   margin-bottom: 50px;
 
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid;
+  border-image: linear-gradient(to right, #467ba9 10%, #8a69fc 80%, #c847ff) 10%;
 }
 
 .dialogContainer .titleContainer {
   position: relative;
   height: 100px;
-  background-color: rgba(192, 192, 192, 0.6);
+  /* background-color: rgba(192, 192, 192, 0.6); */
 
-  background-image: url('../../../img/backgroundImage/titleBackground.png');
+  /* background-image: url('../../../img/backgroundImage/titleBackground.png');
   background-repeat: no-repeat;
-  background-size: 100vh;
-  background-position-x: 50%;
+  background-size: 100vw;
+  background-position-x: 50%; */
+
+  /*background-color: rgba(62, 0, 226,0.2);*/
+  /*background-color: #C847FF;*/
+  /*box-shadow: 0px -4px 2px 1px #E4A3FF;*/
+  background-size: 40px;
+
+  background-image: linear-gradient(to right, #467ba9 10%, #8a69fc 80%, #c847ff);
+  background-size: 100%;
+  background-repeat: no-repeat;
 
   color: white;
 
@@ -46,6 +56,7 @@
   font-size: 1.5rem;
 }
 
+
 @media (max-width: 900px){
   .dialogContainer{
     border-bottom: 5px solid black;
@@ -53,6 +64,7 @@
 
   .dialogContainer .titleContainer{
     border-radius: 50px 8px 50px 8px;
+    background-size: 100vh;
   }
 
   .titleContainer label{

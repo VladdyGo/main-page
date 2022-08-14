@@ -8,6 +8,11 @@
     height: 26.625rem;   
 }
 
+.gradientBorder{
+    border: solid 10px;
+    border-image: linear-gradient(to right, #467ba9 10%, #8a69fc 80%, #c847ff) 10%;
+}
+
 .dialogContainer .titleContainer{
     position: relative;
 
@@ -31,13 +36,11 @@
 .mainContentContainer label{
     cursor:default;
 
-    position: absolute;
-    left:20px;
-    top:20px;
-    bottom: -20px;
-    right: 20px;
+    position: relative;
+    /*left:50%;*/
+    /*transform: translate(-50%,-50%);*/
 
-    height: calc(426px - 40px);
+    /*height: calc(426px - 40px);*/
 
     font-size: 1.125rem;
 

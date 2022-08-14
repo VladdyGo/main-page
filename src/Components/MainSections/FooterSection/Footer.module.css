@@ -1,7 +1,7 @@
 footer {
   display: none;
   height: 100%;
-  background-color: #4e68ff;
+  background-image: linear-gradient(to right, #467ba9 10%, #8a69fc 80%, #c847ff);
 
   padding: 30px 10px;
 
@@ -52,7 +52,7 @@ footer {
     left: 50%;
     transform: translate(-50%,0);
 
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: white;
     text-align: center;
     border-bottom: 0.5px solid white;
@@ -63,7 +63,7 @@ footer {
   }
 
   .contactList {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: left;
     padding-bottom: 0;
   }
@@ -80,6 +80,11 @@ footer {
   .contactList li a {
     text-decoration: none;
     color: white;
+  }
+
+  .contactList li label{
+    color:#00C9A7;
+    font-size: 1.2rem;
   }
 
   .mainFooterContactDiv{

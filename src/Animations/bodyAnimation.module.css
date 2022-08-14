@@ -1,7 +1,7 @@
 .runAnimation {
-  opacity: 0;
-  animation: fadeIn 0.5s;
-  animation-delay: 0.1s;
+  opacity: 100px;
+  animation: fadeIn 0.3s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 

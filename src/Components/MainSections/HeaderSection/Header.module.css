@@ -75,12 +75,14 @@ label:hover {
   {
     position: absolute;
     height: 120px;
+    width: 150px;
     right:0;
     top:0;
     z-index: 1;
     padding:20px;
     background-color: #4e68ff;
     border-radius: 0 0 0 20px;
+    box-shadow: 10px 10px 0px black;
   }
 
   .plantLogo{
@@ -107,7 +109,7 @@ label:hover {
     position: static;
     display: block;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 
   .mobileHeader img {
@@ -119,6 +121,11 @@ label:hover {
   .logo{
     font-size: 4rem;
     display: inline;
+  }
+
+  .logo label{
+    position: relative;
+    left:30px;
   }
 
   .menuIcon{

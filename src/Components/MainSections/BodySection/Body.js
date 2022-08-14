@@ -23,7 +23,7 @@ const Body = (props) => {
   if (props.bodyContent === "VG" || props.bodyContent === "None") {
     return (
       <div className={`${classes.mainBody} ${font.fontQuantico} ${classes.headlineWidth}`}>
-          <h1>Vladislav Goteienr</h1>
+          <h1>Vladislav Goteiner</h1>
       </div>
     );
   }

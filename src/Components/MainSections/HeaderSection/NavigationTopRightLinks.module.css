@@ -46,6 +46,10 @@ nav li:hover {
     border-bottom: 0;
   }
 
+  .invisible{
+    display:none;
+  }
+
   
 }
 

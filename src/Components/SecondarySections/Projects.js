@@ -18,14 +18,14 @@ const Projects = (props) => {
           title="Figure skating"
           description="using machine learning to classify videos from figure skating olympics into their type of jump category."
           link="https://github.com/VladdyGo/Figure-Skating"
-          color="#FFDB58"
+          color=""
         ></ProjectDialogWindow>
 
         <ProjectDialogWindow
           title="Doggo"
           description="An internet and mobile app that connects between people and their doggos."
           link=""
-          color="#FFDB58"
+          color=""
         ></ProjectDialogWindow>
       </div>
     </div>

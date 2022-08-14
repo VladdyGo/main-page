@@ -18,8 +18,6 @@ const Header = (props) => {
   };
 
   const menuIconClickHandler = (event) => {
-    //[0] === activeMobile
-    //[1] === setActiveMobile
     if (props.activeMobileMenuStatus[0] === false) {
       props.activeMobileMenuStatus[1](true);
     }
