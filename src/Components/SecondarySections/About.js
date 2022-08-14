@@ -12,7 +12,6 @@ const About = (props) => {
         </p>
         <h3>How about a little background ?</h3>
         <p>I live in Israel, Russian born. I graduated from Holon Institute of technology with a degree in applied mathematics. I wear glasses.</p>
-        <h4 style={{color:'#C34A36'}}>I'm Looking for a job!</h4>
         <p>If you have a cool project in mind and you want to collaborate with me don't hesitate!
            Contact me.</p>
       </BigDialogWindow>

@@ -17,7 +17,7 @@ const DialogWindow = (props) => {
     <div className={`${classes.dialogContainer} ${animationClasses.runAnimation} ${props.bodyStyle} ${classes.gradientBorder}`}>
       <div className={classes.titleContainer}><label name={props.title}>{props.title}</label></div>
       <div className={classes.shortDescriptionContainer}><label name={props.shortDescription}>{props.shortDescription}</label></div>
-      <div className={classes.mainContentContainer}><label name='content'>{props.children}</label></div>
+      <div className={classes.mainContentContainer}>{props.children}</div>
     </div>
   );
 };
