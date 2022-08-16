@@ -25,8 +25,9 @@
 
   background-image: url("../../../img/backgroundImage/titleBackground.png");
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 1500px 200px;
   background-position-y: 50%;
+  background-position-x: 50%;
   text-align: center;
 
   color: white;
