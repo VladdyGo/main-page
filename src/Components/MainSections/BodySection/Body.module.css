@@ -57,6 +57,11 @@
   .bodyStyle,
   .mainBody {
     width: 90%;
+    background-image: url("../../../img/backgroundImage/titleBackground.png");
+    background-repeat: no-repeat;
+    background-size: 650px 200px;
+    background-position-y: 50%;
+    background-position-x: 50%;
   }
 
   .headlineWidth{
