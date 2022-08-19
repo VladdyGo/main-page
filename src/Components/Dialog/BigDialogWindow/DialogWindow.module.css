@@ -5,9 +5,10 @@
   margin:auto;
 
   margin-bottom: 50px;
+  background: 0;
 
-  border-bottom: 10px solid;
-  border-image: linear-gradient(to right, #467ba9 10%, #8a69fc 80%, #c847ff) 10%;
+  /*border: 10px solid;*/
+  /*border-image: linear-gradient(to right, #467ba9 10%, #8a69fc 80%, #c847ff) 10%;*/
 }
 
 .dialogContainer .titleContainer {
@@ -60,6 +61,7 @@
 @media (max-width: 900px){
   .dialogContainer{
     border-bottom: 5px solid black;
+    border-image: linear-gradient(to right, #467ba9 10%, #8a69fc 80%, #c847ff) 10%;
   }
 
   .dialogContainer .titleContainer{

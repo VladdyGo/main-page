@@ -15,7 +15,7 @@
   width: 100%;
   /*background-color: rgba(196, 196, 196,0.4); */
   background-image: linear-gradient(to bottom, #845ec2, #7658a5, #685189, #5a4b6d, #4b4453);
-  border-radius: 20px 5px 20px 5px;
+  /*border-radius: 20px 5px 20px 5px;*/
   font-size: 1rem;
   color: white;
 }
